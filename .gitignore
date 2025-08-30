@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# obsidian generated files
+.obsidian
+
+# vscode files
+.vscode
+
+# build folder
+build
