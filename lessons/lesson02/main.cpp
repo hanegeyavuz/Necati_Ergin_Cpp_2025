@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdio.h>
+#include <cstdio>
 
 #if 1
 struct Point{

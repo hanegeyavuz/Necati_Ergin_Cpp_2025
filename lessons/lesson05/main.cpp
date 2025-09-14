@@ -130,8 +130,10 @@ int main(int argc, char const *argv[])
 }
 
 #endif
+#if 1
+int foo(int){
 
-int foo(int);
+}
 
 int main(int argc, char const *argv[])
 {
@@ -139,3 +141,4 @@ int main(int argc, char const *argv[])
 	auto fp_1 = foo; /* int(*)(int) */
 	auto& fp_2 = foo; /* int(&fp_2)(int) */ /* no function to pointer conv. */
 }
+#endif
