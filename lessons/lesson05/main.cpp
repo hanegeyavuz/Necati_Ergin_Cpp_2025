@@ -132,7 +132,7 @@ int main(int argc, char const *argv[])
 #endif
 #if 1
 int foo(int){
-
+    return 12;
 }
 
 int main(int argc, char const *argv[])
