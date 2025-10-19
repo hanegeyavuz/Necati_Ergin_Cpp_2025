@@ -182,12 +182,13 @@ int main()
 
 #endif
 
-#if 0
+#if 1
 /*access specifiers*/
 class Myclass{
-public:
+                // Private Field
+public:         // Public Field
     int ax;
-private:
+private:        // Private Field
     int bx;
 };
 
