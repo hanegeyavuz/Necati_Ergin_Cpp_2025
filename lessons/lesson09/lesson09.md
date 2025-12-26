@@ -229,7 +229,7 @@ class Data{ /* class definition */
 	- Member Function
 
 >[!faq]
->C++ standardı asla *member* terimi kullanmaz. Bu community içerisindeki bazı kişiler tarafından kullanılan bir terimdir. Standart her zaman **member** kullanır.
+>C++ standardı asla *metot* terimi kullanmaz. Bu community içerisindeki bazı kişiler tarafından kullanılan bir terimdir. Standart her zaman **member** kullanır.
 
  - Data members 2 kategoriye ayrılmaktadır.
 	 - Non-Static Data Members
@@ -241,8 +241,6 @@ class Data{ /* class definition */
 	- Non-static member functions
 	- Static member functions  
 - Bu türlerin *static* olan kısımları **ilerde detaylı olarak ele alınacaktır**
-
-
 
 - Member Functions sınıf nesnesi içerisinde **yer almaz**.
 >[!Attention]
