@@ -55,7 +55,6 @@ int main(){
 	cout << "x = " << ::x << endl;
 }
 #endif
-
 #if 0
 class Counter{
 private:
@@ -131,7 +130,7 @@ int Date::get_year()const{
 
 #endif
 
-#if 0
+#if 1
 class Date{
 public:
 	void set_year(int y);
@@ -146,6 +145,12 @@ private:
 
 int Date::get_year()const{
     const Date mydate{};
-    mydate.set_year(1993); /* ILLEGAL! */ /*the object has type qualifiers that are not compatible with the member function*/
+    //mydate.set_year(1993); /* ILLEGAL! */ /*the object has type qualifiers that are not compatible with the member function*/
 }
+
+int main(int argc, char const *argv[])
+{
+    return 0;
+}
+
 #endif
