@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Common libs
 include_directories(libs/Inc)
-file(GLOB LIB_SRC "libs/Src/*.cpp")
+file(GLOB LIB_SRC   "libs/Src/*.cpp"
+                    "libs/Src/*.c"
+)
 
 # Add lessons
 file(GLOB LESSONS "lessons/*/main.cpp")
