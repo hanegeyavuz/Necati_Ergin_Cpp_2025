@@ -146,6 +146,7 @@ private:
 int Date::get_year()const{
     const Date mydate{};
     //mydate.set_year(1993); /* ILLEGAL! */ /*the object has type qualifiers that are not compatible with the member function*/
+    return 0;
 }
 
 int main(int argc, char const *argv[])
