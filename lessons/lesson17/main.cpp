@@ -105,7 +105,6 @@ void Myclass::func(){
 
 int main(int argc, char const *argv[])
 {
-    Myclass m1, m2, m3;
-    std::cout << "\nm1.z = " << m1.z << " m2.z = " << m2.z << " m3.z = " << m3.z << "\n";
+
 }
 #endif
