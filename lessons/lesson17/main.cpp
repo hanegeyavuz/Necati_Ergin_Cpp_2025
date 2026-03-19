@@ -89,9 +89,8 @@ public:
     
 private:
     int mx;
-    int foo();
+    int foo(){return 2;}
     static void func();
-private:
 };
 
 void Myclass::func(){
