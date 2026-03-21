@@ -1,3 +1,9 @@
+---
+tags:
+  - cpp
+  - friend
+  - operator_overloading
+---
 
 ---
 ## `friend` Declarations
@@ -255,6 +261,7 @@ private:
 
 12. Geri dönüş değeri türünün ne olduğu sınıfın türü ve operator türüne göre değişir.
 	1. Karşılaştırma operatörlerinin geri dönüş değeri genellikle `bool` olur
+13. Function call operatörü hariç default argument i yoktur.
 
 
 >[!HINT]
