@@ -71,16 +71,23 @@ public:
     }
     // auto operator<=>(const Mint&)const = default; /*c++20 standard feature*/
 
-    Mint& operator++(){
+    Mint &operator++()
+    {
         ++mval;
         return *this;
     }
-    Mint operator++(int){
+    Mint operator++(int)
+    {
         Mint temp{*this};
         ++mval;
         return temp;
     }
 
-    private:
+    operator bool() const
+    {
+        return mval != 0;
+    }
+
+private:
     int mval{};
 };

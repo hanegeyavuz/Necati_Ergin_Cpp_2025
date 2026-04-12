@@ -151,6 +151,4 @@ out:
     }
 ```
 
-### Subscript Operator Function
-- Member operator function olmak zorundadır.
-- 
+---
