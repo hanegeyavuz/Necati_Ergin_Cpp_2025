@@ -198,9 +198,9 @@ int main(int argc, char const *argv[])
 #if 1
 class MyClass{
 public:
-    void operator()(int x, int y); 
-    int operator()(int x = 32);
-    int operator()(double);
+    void operator()(int x, int y){}
+    int operator()(int x = 32){return 1;}
+    int operator()(double){return 1;}
 
 };
 
